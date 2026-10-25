@@ -1,5 +1,6 @@
 # DIGITALCLOCK
-lang="en"> 
+<!DOCTYPE html> 
+<html lang="en"> 
 <head>    
 <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
@@ -33,7 +34,14 @@ lang="en">
                                                                                           hour12: true});
             document.getElementById("day").textContent = now.toLocaleDateString("en-US", {weekday: "long"});
             document.getElementById("date").textContent = now.toLocaleDateString("en-US", {month: "short",                   
-                                                                                           day: "2-digit",                   
+                                                                                           day: "2-digit",
+                                                                                           year: "numeric"});}
+        update();        
+        setInterval(update, 1000); 
+       </script>
+</body> 
+</html>
+                                                                                           
                                                                                            year: "numeric"});}
         update();        
         setInterval(update, 1000); 
