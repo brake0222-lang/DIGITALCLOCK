@@ -37,8 +37,8 @@
                                                                                            day: "2-digit",                   
                                                                                            year: "numeric"});}
         update();        
-        setInterval(update, 1000);   </script>
+        setInterval(update, 1000);  
+    </script>
 </body> 
 </HTML>
-</html>
                                                                                       
