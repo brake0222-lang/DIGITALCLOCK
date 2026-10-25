@@ -40,5 +40,5 @@
         setInterval(update, 1000);  
     </script>
 </body> 
-</HTML>
+</html>
                                                                                       
