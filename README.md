@@ -1,5 +1,4 @@
 # DIGITALCLOCK
-<!DOCTYPE html> 
 <html lang="en"> <head>    
   <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
@@ -36,8 +35,7 @@
                                                                                            day: "2-digit",                   
                                                                                            year: "numeric"});}
         update();        
-        setInterval(update, 1000); 
-       </script>
+        setInterval(update, 1000);   </script>
 </body> 
 </HTML>
 </html>
